@@ -12,4 +12,4 @@ Build a method (#build_tree) which takes an array of data and turns it into a bi
 
 Build a method (#knight_moves) that shows the simplest possible way to get from one square on a 8x8 chess board to another square by outputting all squares the knight will stop on along the way. To do this, I had to create a tree data structure to hold all the possible knight positions. Once the target position was encountered, a breadth-first-search was called on the data tree to find the target and trace back to the starting position.
 
-*\* For me the trickiest part was figuring out that the data tree could not be binary (each node would have a bunch of child nodes, not just a left or right child node). At that point having to work with an array of child nodes (@children) was the challenge.*
+*For me the trickiest part was figuring out that the data tree could not be binary (each node would have a bunch of child nodes, not just a left or right child node). At that point having to work with an array of child nodes (@children) was the challenge.*
